@@ -2,7 +2,7 @@ const options = {
 	method: 'GET',
 	headers: {
 		//'X-RapidAPI-Key': 'system's key',
-		//'X-RapidAPI-Host': 'host address'
+		//'X-RapidAPI-Host': 'rapid api key'
 	}
 };
 const getWeather = (city) => {
