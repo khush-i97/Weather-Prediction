@@ -1,0 +1,127 @@
+:root {
+    --black: #000000
+}
+
+.abc {
+    display: inline-flex;
+}
+.def {
+    display: inline-flex;
+    margin-left: 200px;
+}
+.pop {
+    margin-top: -50px;
+}
+.ghi {
+    margin-top:-95px; 
+    margin-left: 30px;
+}
+.img {
+    margin-top: -100px;
+    height: 300px;
+    width: 500px;
+}
+.hr {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    color: var(--black);
+}
+
+@media screen and (max-width: 700px) {
+    .abc {
+        display: unset;
+    }
+    .def {
+        display: unset;
+        margin-left: 0px;
+        margin-top: 1000px;
+    }
+    .pop {
+        margin-top: 20px;
+    }
+    .ghi {
+        margin-top: -10px; 
+        margin-left: 0px;
+        line-height: 80%;
+    }
+    .img {
+        margin-top: -100px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .abc {
+        display: unset;
+    }
+    .def {
+        display: unset;
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+    .pop {
+        margin-top: -200px;
+        margin-left: 500px;
+    }
+    .ghi {
+        margin-top: 0px; 
+        margin-left: 500px;
+        line-height: 0%;
+    }
+    .img {
+        margin-top: -100px;
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .abc {
+        display: unset;
+    }
+    .def {
+        display: unset;
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+    .pop {
+        margin-top: -300px;
+        margin-left: 700px;
+    }
+    .ghi {
+        margin-top: 0px; 
+        margin-left: 700px;
+        line-height: 0%;
+    }
+    .img {
+        margin-top: -100px;
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .abc {
+        display: unset;
+    }
+    .def {
+        display: unset;
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+    .pop {
+        margin-top: -3s50px;
+        margin-left: 800px;
+    }
+    .ghi {
+        margin-top: 0px; 
+        margin-left: 800px;
+        line-height: 0%;
+    }
+    .img {
+        margin-top: -100px;
+        height: 50%;
+        width: 50%;
+    }
+}
